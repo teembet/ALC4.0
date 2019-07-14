@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#0066CC"
+        android:contentDescription="@string/app_name"
+        app:title="ALC 4 PHASE 1"
+        app:titleTextAppearance="@style/TextAppearance.AppCompat"
+        app:titleTextColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:fontFamily="sans-serif-condensed"
+        android:textColor="#000"
+        android:gravity="center"
+        android:padding="50dp"
+        android:text="WELCOME  TO ALC 4.0"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="33dp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:background="#FFC400"
+        android:layout_marginTop="300dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:textStyle="bold|italic"
+        android:textSize="20dp"
+        android:text="ABOUT ALC"
+        />
+
+    <Button
+        android:id="@+id/button2"
+        android:textSize="20dp"
+        android:textStyle="bold|italic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginLeft="150dp"
+        android:padding="10dp"
+        android:layout_marginTop="375dp"
+        android:background="#FFC400"
+        android:text="My Profile" />
+
+
+</RelativeLayout>
